@@ -1,0 +1,118 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+:focus 
+{
+    outline: none;
+}
+body 
+{
+    background: url(../imges/2015_11_05_don-du-sang_1040x740_-C-Fotolia.com_Event.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 350px;
+   
+}
+.main {
+    width: 100%;
+    height: 500px;
+    background: rgba(34, 34 ,34 , 0.1);
+    margin-top: 200px;
+}
+
+/** start of information about us**/
+
+.main .info 
+{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+.main .info h2
+{
+    text-align: center;
+    color: #BB0A21;
+    font-size: 70px;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.main .info p 
+{
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+font-family: 'Mirza', cursive;
+    color: #2A4375;
+}
+.main .info button 
+{
+    text-align: center;
+    margin-left: 260px;
+    width: 130px;
+    height: 50px;
+    color: #FFF8F0;
+    background-color: #C12035;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Scheherazade', serif;
+}
+.main .info button:hover {
+    background-color: #C73649;
+}
+/** start the form of log in **/
+
+.main .form {
+    width: 50%;
+    float: right;
+    margin-top: 130px;
+    direction: rtl;
+    position: relative;
+}
+.main .form input
+{
+    margin-right: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: transparent;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px #2A4375 solid;
+    outline: none;
+    color: #343434;
+    font-size: 35px;
+    font-family: 'Scheherazade', serif;
+}
+.main .form label 
+{
+    position: absolute;
+    font-family: 'Mirza', cursive;
+    font-size: 35px;
+    color: #BB0A21;
+    margin-right: 200px;
+    font-weight: 1000;
+}
+
+.main .form button 
+{
+    text-align: center;
+    margin-right: 280px;
+    width: 130px;
+    height: 50px;
+    color: #FFF8F0;
+    background-color: #C12035;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Scheherazade', serif;
+}
+.main .form button:hover {
+    background-color: #C73649;
+}

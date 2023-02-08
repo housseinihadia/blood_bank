@@ -1,0 +1,82 @@
+* {
+	margin: 0px ; 
+}
+body
+{
+	background-image: url("../imges/2015_11_05_don-du-sang_1040x740_-C-Fotolia.com_Event.jpg") ;
+	background-size:cover ;
+    background-repeat: no-repeat;
+	overflow-x: hidden ;
+}
+.main
+{
+	width: 550px ; 
+	height: 500px;
+	margin: 200px auto auto; 
+	background: rgba(99, 99 , 99 , 0.2);
+	border: 0px  ;
+}
+
+.log-in  h1  {
+    color: #B61616;
+    font-size: 100px;
+    font-family: 'Harmattan', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.log-in  h2 
+{
+	text-align: center ; 
+	font-size: 30px;
+    font-family: 'Scheherazade', serif;
+    margin-top: 0px;
+    color: #191d32;
+}
+.log-in form input 
+{
+      direction: rtl ;
+      text-align: center ;
+      margin-bottom: 10px;	
+      display: inline-block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-family: 'Scheherazade', serif;
+      font-size: 20px;
+      font-weight: 600;
+      border: 0px ;
+      border-radius: 20px;
+      color: white;
+      background-color: #2e2f49;
+      height: 30px;
+      width: 300px;
+      padding-left: 0px;
+      margin-left: 130px;
+      margin-top: 10px;
+    outline: none;
+}
+
+.log-in form  button
+
+{
+        margin-top: 10px; 
+        margin-left: 150px;
+        width: 250px ; 
+        height : 40px ; 
+        text-align: center ; 
+        display: inline-block;
+        background-color: #2e2f49;
+        direction: rtl;
+        color: #9E9E9E ; 
+        border: 0px;
+        border-radius: 20px;
+        font-family: 'Scheherazade', serif;
+        font-size: 25px;
+        outline: none;
+ }
+.log-in form  button:hover {
+    color: #2e2f49;
+    background-color: #9E9E9E ;
+    text-align: center ; 
+    font-family: 'Scheherazade', serif;
+    border-radius: 20px;
+}

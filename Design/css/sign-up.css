@@ -1,0 +1,122 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    background: url(../imges/2015_11_05_don-du-sang_1040x740_-C-Fotolia.com_Event.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 350px;
+   
+}
+.sign-up 
+{
+    width: 600px;
+    height: 600px;
+    background: rgba(34, 34 ,34 , 0.2);
+    margin-left: 350px
+}
+.sign-up .form {
+    overflow: hidden;
+    margin-top: 150px;
+}
+.sign-up .form .data
+{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px #2A4375  solid ;
+    background-color: transparent;
+    direction: rtl;
+    margin-left: 150px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.sign-up .form .radio1  , .sign-up .form  .radio2  
+{
+    display: inline-block;
+    color: #2A4375;
+    padding: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    direction: rtl;
+    margin-left: 170px;
+}
+.sign-up .form  .gander , .sign-up .form   .gander  
+{
+     display: inline-block;
+    color: #2A4375;
+    padding: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    direction: rtl;
+}
+
+
+.sign-up .form select .select1 , .select2 {
+    direction: rtl;
+    width: 300px;
+    background-color: transparent;
+    color: #2A4375;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px #2A4375 solid;
+    display:inline-block;
+}
+
+.sign-up .form select option {
+    background-color:  #2A4375;
+    font-size: 15px;
+    color: whitesmoke;
+    outline: none;
+}
+::-webkit-input-placeholder { /* Chrome */
+      color: #2A4375;
+     direction: rtl;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 25px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #2A4375;
+   direction: rtl;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#2A4375;
+  opacity: 1;
+  direction: rtl;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 25px;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color:#2A4375;
+  opacity: 1;
+  direction: rtl;
+  font-family: 'PT Sans', sans-serif;
+ font-size: 25px;
+}
+.sign-up .form  button {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #BB0A21 ;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: 'Scheherazade', serif;
+    margin-left: 250px;
+}
+.sign-up .form button:hover {
+    background-color: #C73649;
+}
